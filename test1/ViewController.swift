@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func buttonpushed(_ sender: UIButton)
+    {
+        print("Button pushed")
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
